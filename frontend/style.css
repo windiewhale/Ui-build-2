@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+/*end of css reset*/
+
+body {
+    background-color: #4343F9;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff
+}
+
+button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    
+    box-shadow: 3px 3px 10px #00000033, -3px -3px 10px #00000033;
+
+    font-size: 24px;
+}
+
+div {
+    position: absolute;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2), -3px -3px 10px rgba(0,0,0,0.2)
+}
+
+#right {
+    top: 50vh;
+}
+
+#top {
+    left: 50%;
+    transform: translate(-50%)
+}
+
+#left {
+    top: 50vh;
+    right: 0;
+}
+
+#bottom {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%)
+}
