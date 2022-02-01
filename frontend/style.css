@@ -66,6 +66,7 @@ div {
 
 #right {
     top: 50vh;
+    transform: translate(0, -50%)
 }
 
 #top {
@@ -76,6 +77,7 @@ div {
 #left {
     top: 50vh;
     right: 0;
+    transform: translate(0, -50%)
 }
 
 #bottom {
